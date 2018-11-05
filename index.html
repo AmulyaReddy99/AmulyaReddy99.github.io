@@ -4,6 +4,22 @@
 	<title>Resume</title>
 </head>
 <body>
-	<embed src=Docs/Amulya_Resume'18.pdf type="application/pdf" width=100% height=900px />
+	<div id="render_resume"></div>
+	<button id="resume">Resume</button>
+	<script> 
+	$("resume").on("click", function(){
+		$("render_resume").html('<embed src=Docs/Amulya_Resume'18.pdf type="application/pdf" width=100% height=900px />')
+	});
+	</script>
+	<ul>
+		<li><a href="https://amulyareddy99.github.io/EventIT/"><strong>EventIT</strong></a></li>
+		<li><a href="https://amulyareddy99.github.io/Web-Scraper/"><strong>Web Scraper</strong></a></li>
+		<li><a href="https://amulyareddy99.github.io/CryptPY-Algorithms/"><strong>CryptPy-Algorithms</strong></a></li>
+		<li><a href="https://amulyareddy99.github.io/SocketChat/"><strong>Socket Chat</strong></li>
+		<li><a href="https://amulyareddy99.github.io/Facebook-login-page/"><strong>Facebook login page clone</strong></a></li>
+		<li><a href="https://amulyareddy99.github.io/DataStructures/"><strong>Data Structures</strong></li>
+		<li><a href="https://amulyareddy99.github.io/Operating-systems/"><strong>Operating Systems</strong></li>
+		<li><a href="https://amulyareddy99.github.io/CSE-mini-projects/"><strong>CSE mini projects</strong></li>
+	</ul>
 </body>
 </html>
