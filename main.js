@@ -8,7 +8,7 @@ function f3(){
 	document.getElementById('figure_section').innerHTML='<embed src="https://wakatime.com/share/@dd967101-cc38-4044-b52a-1990b7cb2849/c23a824a-eda1-4d74-af3f-7280a3e4d74f.svg"></embed>';
 }
 function f4(){
-	document.getElementById('figure_section').innerHTML='<figure><embed src="https://wakatime.com/share/@dd967101-cc38-4044-b52a-1990b7cb2849/a355ef61-f88e-4980-83c8-288ca2bd284f.svg"></embed></figure>';
+	document.getElementById('figure_section').innerHTML='<embed src="https://wakatime.com/share/@dd967101-cc38-4044-b52a-1990b7cb2849/39b95a30-d4ac-46fd-bcf0-2b7ee78be26a.svg"></embed>';
 }
 // $(document).ready(function(){
 // 	$("#code30_id").on("click",function(){
